@@ -66,4 +66,3 @@ void quickSort(vector<double> &arr, int start, int end) {
     quickSort(arr, start, p - 1);
     quickSort(arr, p + 1, end);
 }
-
