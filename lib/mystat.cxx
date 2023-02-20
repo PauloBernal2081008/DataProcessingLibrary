@@ -7,10 +7,6 @@
 
 using namespace std;
 
-double mean(vector<double>);
-double median(vector<double>);
-double stdev(vector<double>);
-
 double mean(vector<double> v) {
     double a = 0;
     for(int i = 0; i < v.size(); i++) {
